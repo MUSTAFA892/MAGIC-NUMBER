@@ -1,4 +1,13 @@
-*magic number
-num=int(input("Enter a number to find a magic number:")
+num=int(input("Enter a number:"))
 x=num
-whil
+while x>=10:
+  sum=0
+  while x>0:
+    r=x%10
+    sum=sum+r
+    x=x//10
+  x=sum
+if sum==1:
+  print("The given number is magic number")
+else:
+  print("The  given number is not a magic number")
