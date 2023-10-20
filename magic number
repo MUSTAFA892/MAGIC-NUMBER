@@ -1,0 +1,4 @@
+*magic number
+num=int(input("Enter a number to find a magic number:")
+x=num
+whil
